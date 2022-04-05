@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Estudio Jurídico Segal</title>
+        <link rel="shortcut icon" href="assest/img/favicon.png">
+
+        <!-- Hoja de estilos -->
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Tipografía -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <!-- Tipografía medium-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
+
+    <body id="grid_area_home"> <!-- contenido -->
+        <header id="home_nav" class="encabezado"> <!-- encabezado con logo-->
+           
+            <a href="index.html"><img src="assest/img/Logo.png" alt="logo estudio jurídico segal" class="imagen_nav"></a>
+           
+            <nav> <!-- menu -->
+                <ul class="menu_position">
+                    <li class="menu_items"><a href="index.html"> Inicio </a> </li>
+                    <li class="menu_items"><a href="pages/quienes_somos.html"> Quiénes somos </a> </li>
+                    <li class="menu_items"><a href="pages/servicios_juridicos.html"> Servicios jurídicos </a> </li>
+                    <li class="menu_items"><a href="pages/gestoria.html"> Gestoría </a> </li>
+                    <li class="menu_items"><a href="pages/contacto.html"> Contacto </a> </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main> <!-- contenido principal -->
+            <div id="home_slider" class="slider">
+
+                <img  src="assest/img/Header.png" class="imagen_slider" alt="imagen header">
+
+                <section class="texto_position"> <!-- slider -->
+                    <h1 class="titulo_home">¡ASESORATE CON EL MEJOR EQUIPO DE ABOGADAS!</h1>
+                    <h2 class="subtitulo_home">Nos enfocamos en brindar soluciones integrales a medida y con un alto valor agregado</h2>
+                    <a href="pages/contacto.html"><button class="botones"> Enviar mi consulta</button></a>
+                </section>
+
+            </div>     
+
+            <section id="home_servicios" class="fondo_crema_servicios "> <!-- servicios-->
+                <article class="servicios_centrado">
+                    <h2 class="subtitulo_bordo_home">Servicios Jurídicos</h2>
+                    <img src="assest/img/Home_servicios jurídicos.png" class="servicios_imgs" alt="servicios juridicos">
+                    <a href="pages/servicios_juridicos.html"><button class="botones_servicios">Conocé más</button></a>
+                </article>
+    
+                <article class="servicios_centrado_2">
+                    <h2 class="subtitulo_bordo_home">Gestoría</h2>
+                    <img src="assest/img/Home_gestoria.png" alt="gestoria" class="servicios_imgs" >
+                    <a href="pages/gestoria.html"><button class="botones_servicios">Conocé más</button></a>
+                </article>    
+            </section>
+            
+            <section id="home_nuestro_estudio" class="estudio_contenedor"><!-- el estudio-->
+                <img src="assest/img/Home_estudio.png" alt="oficina del estudio" class="estudio_imagen">
+                    <article class="texto_contenedor">
+                        <h2 class="subtitulo_estudio">Hace más de 30 años trabajamos para brindarte la mejor solución</h2>
+                        <p class="parrafos">Lorem ipsum dolor sit amet consectetur adipiscing elit tempor vulputate blandit, 
+                            class cursus eu condimentum molestie dictumst sed sollicitudin nisi, felis ac 
+                            nostra ornare egestas nulla aliquet conubia nascetur. Eu at torquent vitae cras 
+                            ante cum imperdiet faucibus nulla nostra suspendisse, platea mus pulvinar lacus 
+                             
+                            </p>
+                        <a href="pages/quienes_somos.html"><button class="botones_conoce_mas">Ver más sobre el estudio</button></a>
+                        <a href="pages/contacto.html"><button class="botones_ver_sedes">Ver las sedes</button></a>
+                    </article>
+            </section>
+
+            <div id="home_opiniones_clientes" class="fondo_crema_opiniones"> <!-- testimonios-->
+                <h2 class="subtitulo_verde_opiniones">Nuestros clientes opinan</h2> <br>
+               
+                <section class="flex_opiniones_home">
+                    <article class="bloque_opiniones_home"> <!-- testimonio 1-->
+                        <h3 class="h3_texto">Marina Carballo </h3>
+                        <h4 class="h4_texto">(44 años)</h4>
+                        <p class="parrafos_gris_justificado_home">Nosotras somos hermanas y el estudio nos ayudó a realizar la sucesión de nuestros padres. Se portaron de una manera muy profesional!</p>
+                    </article>
+
+                    <article class="bloque_opiniones_home"> <!-- testimonio 2-->
+                        <h3 class="h3_texto">Laura y Marcela Castro</h3>
+                        <h4 class="h4_texto">(78 y 65 años)</h4>
+                        <p class="parrafos_gris_justificado_home">Nosotras somos hermanas y el estudio nos ayudó a realizar la sucesión de nuestros padres. Se portaron de una manera muy profesional!</p>
+                    </article>
+
+                    <article  class="bloque_opiniones_home"> <!-- testimonio 3-->
+                        <h3 class="h3_texto">Juan José García </h3>
+                        <h4 class="h4_texto">(56 años)</h4>
+                        <p class="parrafos_gris_justificado_home">Nosotras somos hermanas y el estudio nos ayudó a realizar la sucesión de nuestros padres. Se portaron de una manera muy profesional!</p>
+                    </article>
+                </section>
+            </div>    
+                
+            <section id="home_newsletter" class="fondo_azul_news">  <!-- form de newsletter-->
+                <h2 class="subtitulo_news">Suscribite a nuestro newsletter mensual</h2> <br>
+                
+                <form action="" >
+                    <input type="email" name="correo" placeholder="Escribí tu Correo Electrónico" class="mail_news"> <br>
+                    <input  class="botones_news" type="submit" value="Enviar"> 
+                </form>
+
+            </section>           
+
+        </main>
+
+                
+        <footer id="home_pie" > <!-- pie de pagina -->
+            
+                <a href="index.html"><img src="assest/img/Iso.png" alt="Isotipo Estudio Jurídico Segal" class="isotipo_footer"></a>
+                
+                <p class="texto_legales">Todos los derechos reservados, Estudio Jurídico Segal.</p>
+                    
+                    <!-- redes footer -->
+                <nav class="iconos_redes">
+                        <a href="https://web.whatsapp.com/"> <img src="assest/img/Wpp.png" alt="logo whats app"> </a> <!-- falta confirmar link -->
+                        <a href="https://instagram.com/estudiojuridicosegal?utm_medium=copy_link"> <img src="assest/img/Ig.png" alt="logo instagram"> </a>  
+                        <a href="https://es-la.facebook.com/"> <img src="assest/img/fb.png" alt="logo facebook"> </a>  <!-- falta confirmar link -->
+                        
+                </nav>    
+
+        </footer>
+
+    </body>
+</html>

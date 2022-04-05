@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Estudio Jurídico Segal</title>
+        <link rel="shortcut icon" href="../assest/img/favicon.png">
+
+        <!-- Hoja de estilos -->
+        <link rel="stylesheet" href="../style.css" />
+
+        <!-- Tipografía -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <!-- Tipografía medium-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+       
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
+
+    <body id="grid_area_contacto"> <!-- contenido -->
+        <header id="contacto_nav" class="encabezado"> <!-- encabezado con logo-->
+           
+            <a href="../index.html"><img src="../assest/img/Logo.png" alt="logo estudio jurídico segal" class="imagen_nav"></a>
+           
+            <nav> <!-- menu -->
+                <ul class="menu_position">
+                    <li class="menu_items"><a href="../index.html"> Inicio </a> </li>
+                    <li class="menu_items"><a href="quienes_somos.html"> Quiénes somos </a> </li>
+                    <li class="menu_items"><a href="servicios_juridicos.html"> Servicios jurídicos </a> </li>
+                    <li class="menu_items"><a href="gestoria.html"> Gestoría </a> </li>
+                    <li class="menu_items"><a href="contacto.html"> Contacto </a> </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main class="main_caja"> <!-- contenido principal -->
+            <section id="contacto_encabezado" class="encabezado_subsecciones"> <!-- imagen de arriba-->
+                <img src="../assest/img/Header_img de ejemplo.png" alt="imagen de abogada trabjando" class="imagen_encabezado_subsecciones">
+                <article class="">
+                <h1 class="titulo_subsecciones">Comunicate con nuestro equipo</h1>
+                </article>
+            </section>
+
+            <div class="fondo_contacto">
+                <section id="contacto_form" class="caja_formulario">
+
+                    <h2 class="subtitulo_verde_contacto">Envianos tu consulta</h2>
+                        <form action="">
+
+                            <label class="texto_label">Nombre y Apellido</label> 
+                            <input class="input bloque_input_form"type="text" name="nombre_y_apellido"> 
+
+                            <label class="texto_label">Correo Electrónico</label> <br>
+                            <input class="input bloque_input_form" type="email" name="correo"> <br>
+
+                            <label class="texto_label"> Teléfono/celular</label> <br>
+                            <input class="input bloque_input_form"  type="email" name="correo"> <br>
+                            
+                            <label class="texto_label">Tipo de consulta</label> <br>
+
+                            <select class="texto_label select bloque_input_form" name="select-consulta"> <!-- select -->
+                                <option class="input">Gestoría</option>
+                                <option class="input">Servicios Jurídicos</option>
+                            </select><br>    
+
+                            <p class="texto_label">Dejá tu mensaje:</p><br>
+                            <textarea class="input_text_area bloque_input_form" name="comentario" rows="10" ></textarea> <br>
+                            
+                            <input class="checkbox" type="checkbox" name="terminos" value="1"> <!-- checkbox -->
+                            <span class="texto_label">Acepto terminos y condiciones</span>
+
+                            <br>
+                            <input  class="boton_contacto" type="submit" value="Enviar">
+
+                        </form>
+                </section>
+
+                <section id="contacto_mapa" class="ubicacion" >  <!-- mapas -->
+                        <article> <!-- CABA -->
+                            <h2 class="subtitulo_bordo_mapa">Sede Capital Federal</h2>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3284.04830532792!2d-58.388953!3d-34.60294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac133144261%3A0x311bf179f17bf904!2sLavalle%201567%2C%20C1048%20CABA!5e0!3m2!1ses!2sar!4v1647104311056!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <p class="parrafos_gris">Lavalle 1567 - 5° Piso - Ofic. 506 <br>
+                                (11) 5811-0221</p>
+                        </article>       
+                        
+                        <article> <!-- VILLA CELINA -->
+                            <h2 class="subtitulo_bordo_mapa margin_2">Sede Villa Celina</h2>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.5290099835656!2d-58.48159108446999!3d-34.69183476967344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcceb139f4eddb%3A0xbd696a1889fb409d!2sAv.%20Gral.%20Paz%2016299%2C%20Villa%20Madero%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1647104338335!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <p class="parrafos_gris"> Av. Gral Paz 16299 - Va. Celina <br>
+                                (11) 7528-7209</p>
+                        </article>     
+
+                </section>   
+        
+            </div>
+        
+        </main>
+        
+        
+        <footer id="contacto_pie" class="fondo_gris_footer"> <!-- pie de pagina -->
+            
+            <a href="../index.html"><img src="../assest/img/Iso.png" alt="Isotipo Estudio Jurídico Segal" class="isotipo_footer"></a>
+            
+            <p class="texto_legales">Todos los derechos reservados, Estudio Jurídico Segal.</p>
+                
+                <!-- redes footer -->
+            <nav class="iconos_redes">
+                    <a href="https://web.whatsapp.com/"> <img src="../assest/img/Wpp.png" alt="logo whats app"> </a> <!-- falta confirmar link -->
+                    <a href="https://instagram.com/estudiojuridicosegal?utm_medium=copy_link"> <img src="../assest/img/Ig.png" alt="logo instagram"> </a>  
+                    <a href="https://es-la.facebook.com/"> <img src="../assest/img/fb.png" alt="logo facebook"> </a>  <!-- falta confirmar link -->
+                    
+            </nav>    
+
+    </footer>
+
+    </body>
+</html>
